@@ -1,0 +1,197 @@
+:root {
+    --basic-white: #FFFFFF;
+    --basic-black: #000000;
+    --bacic-blue: #81B3D2;
+    --basic-brown: #766357;
+}
+
+body {
+    min-width: 1220px;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: var(--basic-black);
+    text-transform: uppercase;
+    background-color: var(--basic-white);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* Main navigation */
+
+.main-navigation {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+}
+
+.navigation-list {
+    list-style: none;
+}
+
+.main-navigation a {
+    color: var(--basic-black)
+}
+
+.main-navigation a:hover {
+    color: var(--bacic-blue)
+}
+
+.main-navigation a:active {
+    color: var(--basic-black);
+    opacity: 30%;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.subtitle-head {
+    margin-top: 43px;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.subtitle-text {
+    margin-top: 49px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.city-wrapper {
+    display: block;
+    width: 400px;
+    height: 256px;
+    background-color: var(--bacic-blue);
+}
+
+.real-city {
+    text-align: center;
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+    color: var(--basic-white);
+}
+
+.city-number {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: var(--basic-white);
+}
+
+.city-text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: var(--basic-white);
+}
+
+/* Offers */
+
+.house-pic {
+    width: 75px;
+    height: 72px;
+    background-image: url(../img/icon_home.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.food-pic {
+    width: 75px;
+    height: 70px;
+    background-image: url(../img/icon_food.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.souvenir-pic {
+    width: 64px;
+    height: 77px;
+    background-image: url(../img/icon_souvenir.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.accomodation-block h3 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+.accomodation-block p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.food-block h3 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+.food-block p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.souvenir-block h3 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+.souvenir-block p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.bridge-wrapper {
+    display: block;
+    width: 400px;
+    height: 256px;
+    background-color: var(--bacic-blue);   
+    color: var(--basic-white);
+    text-align: center;
+}
+
+.bridge-wrapper h2 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+.bridge-wrapper p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
