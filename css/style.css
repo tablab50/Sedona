@@ -1,3 +1,7 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
 :root {
     --basic-white: #FFFFFF;
     --basic-black: #000000;
@@ -5,8 +9,15 @@
     --basic-brown: #766357;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
     min-width: 1220px;
+    min-height: 100%;
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
@@ -139,37 +150,13 @@ img {
     background-position: center;
 }
 
-.accomodation-block h3 {
+.offers h3 {
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
 }
 
-.accomodation-block p {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
-}
-
-.food-block h3 {
-    font-size: 21px;
-    line-height: 21px;
-    font-weight: 700;
-}
-
-.food-block p {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
-}
-
-.souvenir-block h3 {
-    font-size: 21px;
-    line-height: 21px;
-    font-weight: 700;
-}
-
-.souvenir-block p {
+.offers p {
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -195,3 +182,20 @@ img {
     line-height: 21px;
     font-weight: 400;
 }
+
+.advantages-wrapper {
+    background-color: #EEEEEE;
+}
+
+.advantages-wrapper h3 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.advantages-wrapper p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
