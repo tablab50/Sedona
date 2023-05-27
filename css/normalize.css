@@ -25,6 +25,7 @@
     margin: 0;
   }
   
+  
   /**
    * Render the `main` element consistently in IE.
    */
@@ -139,16 +140,6 @@
     top: -0.5em;
   }
   
-  /* Embedded content
-     ========================================================================== */
-  
-  /**
-   * Remove the border on images inside links in IE 10.
-   */
-  
-  img {
-    border-style: none;
-  }
   
   /* Forms
      ========================================================================== */
